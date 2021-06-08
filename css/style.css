@@ -5,8 +5,8 @@
 }
 
 .bg {
-  background: -webkit-linear-gradient(right, #3b00de, #7a2ff3, #cc00ff);
-  /* background-image: url("/background.jpg"); */
+  /* background: -webkit-linear-gradient(right, #3b00de, #7a2ff3, #cc00ff); */
+  background-image: url("/background.jpg");
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -19,11 +19,10 @@
 }
 .fm1 {
   background-color: white;
-
   align-self: center;
   border-radius: 10px;
   margin-top: 4rem;
-  padding: 20px;
+  padding: 10px;
   justify-content: center;
 }
 .container {
@@ -81,15 +80,7 @@ input {
   outline: none;
   border: none;
 }
-.focus-input100 {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-}
+
 
 .focus-input100::after {
   content: attr(data-symbol);
