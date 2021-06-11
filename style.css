@@ -5,9 +5,10 @@
 }
 
 body {
-  background: -webkit-linear-gradient(left, #27c4e3, #a34df1,#fe00ff);
+  /* background: -webkit-linear-gradient(left, #27c4e3, #a34df1,#fe00ff);
   background: linear-gradient(left, #27c4e3, #a34df1,#fe00ff);
-  background: -moz-linear-gradient(left, #27c4e3, #a34df1,#fe00ff);
+  background: -moz-linear-gradient(left, #27c4e3, #a34df1,#fe00ff); */
+  background-image: url("https://colorlib.com/etc/lf/Login_v4/images/bg-01.jpg");
 
   background-repeat: no-repeat;
   background-position: center;
