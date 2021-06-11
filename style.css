@@ -5,7 +5,8 @@
 }
 
 body {
-  background: -webkit-linear-gradient(left, #27c4e3, #a34df1,#fe00ff);  /* background-image: url("/background.jpg"); */
+  background: -webkit-linear-gradient(left, #27c4e3, #a34df1,#fe00ff);
+    background-image: url("/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
