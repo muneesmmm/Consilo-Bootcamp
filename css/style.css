@@ -4,15 +4,9 @@
   box-sizing: border-box;
 }
 
-.bg {
+body {
   /* background: -webkit-linear-gradient(right, #3b00de, #7a2ff3, #cc00ff); */
   background-image: url("/background.jpg");
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -21,21 +15,23 @@
   background-color: white;
   align-self: center;
   border-radius: 10px;
-  margin-top: 4rem;
+  margin-top: 3rem;
   padding: 10px;
   justify-content: center;
+  
 }
 .container {
   justify-content: center;
   align-items: center;
   display: flex;
+  
 }
 .head {
   color: #111;
   justify-content: center;
   align-items: center;
   display:flex;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 900;
 }
 
@@ -47,19 +43,21 @@
 }
 
 .label-input100 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
   color: #333333;
   line-height: 1.5;
+  font-weight: 700;
   padding-left: 7px;
 }
 
 .input100 {
-  font-family:'Courier New', Courier, monospace;
+  font-family:Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #333333;
   line-height: 1.2;
   border:0;
+  
   display: block;
   width: 100%;
   height: 55px;
@@ -69,7 +67,7 @@
 
 input {
   outline: none;
-  border: none;
+  /* border: none; */
 }
 
 
@@ -102,6 +100,7 @@ a:link {
   text-decoration: none;
   margin: 5px 5px;
   border-radius: 50%;
+  transition: transform 2s;
 }
 
 .fa:hover {
@@ -140,7 +139,7 @@ a:link {
 }
 
 .form-btnnn {
-  background: -webkit-linear-gradient(left, #2ed3df, #ba7df6,#f185fe);
+  background: -webkit-linear-gradient(left, #27c4e3, #a34df1,#fe00ff);
 
   font-size: 16px;
   color: #fff;
@@ -153,7 +152,18 @@ a:link {
   width: 100%;
   height: 50px;
   border:none;
+  transition: transform 2s;
 }
 .form-btnnn:hover {
-  background: -webkit-linear-gradient(right, #3b00de, #7a2ff3, #cc00ff);
+  background: -webkit-linear-gradient(left,#fe00ff, #a34df1, #27c4e3);
+}
+.form-btnnn:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+.fa:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
 }
