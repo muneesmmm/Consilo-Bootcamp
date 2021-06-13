@@ -1,2 +1,2 @@
 # Consilo-Bootcamp
-http://traversaa.me/Consilo-Bootcamp/
+https://muneesmmm.github.io/Consilo-Bootcamp/
